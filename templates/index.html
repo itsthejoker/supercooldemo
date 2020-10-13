@@ -1,4 +1,5 @@
 {% extends "base.html" %}
+{% load static %}
 
 {% block content %}
 <div class="jumbotron">
@@ -6,5 +7,6 @@
   <p class="lead">If you're reading this, we made it through the deployment demo!</p>
   <hr class="my-4">
   <p>Congratulations on sticking it out and congrats on surviving :)</p>
+    <img src="{% static "party-popper.png" %}" alt="PARTAAYYYY">
 </div>
 {% endblock %}
